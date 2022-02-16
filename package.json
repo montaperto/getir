@@ -11,7 +11,7 @@
     "test": "cross-env NODE_ENV=test jest --testTimeout=10000"
   },
   "keywords": [],
-  "author": "",
+  "author": "Andrea Montaperto",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.1",
