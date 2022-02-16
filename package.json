@@ -8,6 +8,7 @@
     "start": "tsc --project ./ && node index",
     "test": "cross-env NODE_ENV=test jest --testTimeout=10000"
   },
+  "postinstall": "npm run tsc",
   "keywords": [],
   "author": "",
   "license": "ISC",
