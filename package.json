@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "tsc": "tsc",
     "start": "tsc --project ./ && node index",
     "test": "cross-env NODE_ENV=test jest --testTimeout=10000"
   },
